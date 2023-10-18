@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS ABW</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" />
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo profil.png" alt="Bootstrap" width="30" height="24">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" >
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#">Gallery</a>
+        </div>
+      </div>
+    </div>
+   </nav>
+
+   
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <!-- Foto Profil -->
+            <img src="img/foto.JPG" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8">
+            <!-- Deskripsi -->
+            <h1 class="text-primary"><b>MUHAMMAD ILHAM MAULANA</b></h1>
+            <h4>Mahasiswa Teknologi Informasi 20</h4>
+            <p>Hai! Saya adalah seorang web developer saat ini sedang belajar bahasa pemrograman,seperti HTML, CSS, dan JavaScript.</p>
+        </div>
+     </div>
+  </div>
+  <br><br>
+
+  <div class="container">
+    <h3 class="text-center text-bg-dark"><b>Keahlian Pemrograman</b></h3>
+    <br><br>
+
+
+    <div class="d-flex justify-content-around">
+
+      <div class="card" style="width: 35rem;">
+        <img src="img/html.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">Lihat projek HTML saya dengan klik tombol di bawah ini.</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 35rem;">
+        <img src="img/css.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">Lihat projek CSS saya dengan klik tombol di bawah ini.</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 35rem;">
+        <img src="img/js.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">JavaScript</h5>
+          <p class="card-text">Lihat projek JavaScript saya dengan klik tombol di bawah ini.</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
+    </div>
+   
+  
+  </div>
+  <br><br>
+
+  
+  <div class="container">
+    
+    <h3 class="text-center text-bg-dark"><b>Pengalaman</b></h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama Perusahaan</th>
+                <th>Deskripsi</th>
+                <th>Durasi</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>1. </th>
+                <td>DISKOMINSA Aceh Barat</td>
+                <td>Kantor Pemerintahan</td>
+                <td>1 Bulan</td>
+            </tr>
+
+            <tr>
+                <th>2. </th>
+                <td>GreatLearning Course</td>
+                <td>Kursus Bahasa Pemrograman Java</td>
+                <td>2 Minggu</td>
+            </tr>
+
+            <tr>
+                <th>3. </th>
+                <td>W3School</td>
+                <td>Kursus Belajar Bahasa Pemrograman HTML, CSS dan JavaScript</td>
+                <td>3 Bulan</td>
+            </tr>
+
+        </tbody>
+    </table>
+  </div>
+  <br><br>
+
+
+  <footer class="bg-dark text-light text-center py-3">
+    <div class="social-icons">
+      <a href="https://www.instagram.com/ilh.mlna/" target="_blank" class="text-light me-2">
+          <img src="img/insta.png" width="30" height="20"><b>Instagram</b>
+      </a>
+    </div>
+    <br>
+    <div class="container">
+        <p>&copy; 2023 Ilham Maulana. UTS Aplikasi Berbasis Web</p>
+    </div>
+    
+</footer>
+
+
+
+    
+
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
